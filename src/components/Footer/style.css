@@ -1,0 +1,21 @@
+.Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Footer .funcionalities {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Footer .funcionalities img {
+  width: 20px;
+  margin-right: 30px;
+}
+
+.Footer .funcionalities p {
+  font-size: 1.5rem;
+  width: 55%;
+}

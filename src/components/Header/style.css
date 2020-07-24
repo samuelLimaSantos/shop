@@ -4,7 +4,7 @@ header {
   align-items: center;
   width: 98%;
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 1240px;
 }
 
 .logo img {
@@ -23,11 +23,25 @@ nav li a {
   text-decoration: none;
   color: var(--main-color);
   padding-bottom: 5px;
+  display: flex;
+  flex-direction: column;
 }
 
-nav li a:hover {
-  transition: 0.4s;
-  border-bottom: 3px solid var(--red-color);
+nav li:hover div {
+  transition: 1s;
+  animation: slide 0.3s ease-in;
+  height: 4px;
+  background-color: var(--red-color);
+}
+
+@keyframes slide {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
 }
 
 .functions {

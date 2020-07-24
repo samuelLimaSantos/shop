@@ -15,15 +15,19 @@ const Header = () => {
         <nav>
           <li>
             <a href="/">Home</a>
+            <div></div>
           </li>
           <li>
             <a href="/">About</a>
+            <div></div>
           </li>
           <li>
             <a href="/">Products</a>
+            <div></div>
           </li>
           <li>
             <a href="/">Support</a>
+            <div></div>
           </li>
         </nav>
         <div className="functions">
